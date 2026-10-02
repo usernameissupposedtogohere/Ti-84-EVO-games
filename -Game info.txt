@@ -1,0 +1,231 @@
+﻿Game info:
+
+
+All games should have individual keybind tutorials built in that play at the start, but I will include them here as well.
+Key names will be in this format:  (key)
+
+
+This is information relating to what each game is and how it is played.
+
+
+
+
+
+
+BOUNCE:
+A simple physics simulation of a ball bouncing off the edges of the screen.
+
+
+(enter) to reset the ball.
+
+
+FALLBALL:
+You are a ball that is trying to reach another smaller ball. The objective is to reach the small black circle without making contact with the edge of the screen. You continuously fall downward and have horizontal friction.
+
+
+(up arrow) to jump
+
+
+(left arrow) to go left
+
+
+(right arrow) to go right. 
+
+
+
+
+FALLBLOK:
+You are a small square at the bottom of the screen. The objective is to dodge the large squares falling from the ceiling. Each time one passes by you get one point, if you touch one you lose. The sides of the screen loop to each other. This is a turn based game, the enemies will not move unless you move.
+
+
+(up arrow) to tick the game without moving
+
+
+(left arrow) to move left
+
+
+(right arrow) to move right
+
+
+
+
+FLAPBIRD:
+This is a simple flappy bird game. If you dont know what that is you have lived under a rock.
+
+
+(up arrow) to jump
+
+
+
+
+GAMBLING:
+Two dice that roll whenever any key is pressed, and display the sum once they have rolled. There is a pre-built rule set if you are actually gambling with this that is rigged ⅔ to ⅓ in the host's favor. This is not by rigged dice roll. 
+
+
+(enter) to toggle winner declaration which is based off of the prebuilt ruleset
+
+
+(Any key) to re-roll the dice
+
+
+
+
+INFBOUNC:
+3 balls that bounce off of the edge of the screen and each other forever. I swear it is fun to watch.
+
+
+(enter) to reset the balls
+
+
+
+
+KEYNUMS:
+Not a game. It is simply a tool that will print the numerical output of pressing a key.
+
+
+
+
+MAZEGEN:
+Randomly generates a maze. The objective is to reach the far right edge of the screen. 
+
+
+(arrow keys) to move in their respective directions
+
+
+(Y=) to increase the number of obstacles by 10[to a limit due to memory]
+
+
+(window) to decrease the number of of obstacles by 10
+
+
+(zoom) to redraw the maze without changing the obstacle count in case of an impossible maze
+
+
+(-) to increment movement jump down by 1 pixel [minimum 1]
+
+
+(+) to increment movement jump up by 1 pixel
+
+
+
+
+PENTAGON:
+Randomly draws a pentagon on the screen, waits a moment, erases it, and draws another forever.
+
+
+
+
+PIXELART:
+Pixel art drawing with a single save slot. Not a whole lot to say there.
+(arrow keys) to move in their respective directions
+
+
+(Y=) to save the current screen. [WARNING: this will permanently overwrite the last save file]
+
+
+(window) to load the save file. This will happen top to bottom left to right and takes a while. [Attempting to do this without a save file may crash the program.]
+
+
+(+) and (-) to select a color from a list. Imagine it as a number line with each color as a number. 
+-If you email me the rgb and color name of a color you want added I may get to it. Do not complain if it does not get added.
+
+
+(del) to erase the selected pixel
+
+
+(clear) to wipe the screen
+
+
+
+
+PLINKO:
+A ball falls through a board of pegs, bouncing off of them. Gravity is to the right on this.
+
+
+(enter) to reset the ball
+
+
+
+
+SHAPES:
+Input the number of vertexes/points on a shape and then the x-y coordinates of each point. Input the points in order as if tracing the shape. The screen is 320 pixels wide by 210 pixels tall.
+1=1 pixel
+
+
+
+
+SHAPES2:
+Draws shapes and circles on the screen. xy coordinates are in the top left, movement jump is in the top right. Input points as if tracing the shape and adding one once you reach a vertex. Two lines will mark your selected point. You start in the bottom left.
+1=10 pixels
+
+
+(enter) to add a point at selected point
+
+
+(del) to undo last added points in order (no redo)
+
+
+(clear) to clear all points (no redo)
+
+
+(Y=) to mark a point (not visually). Press a second time to mark a new point and measure the distance between them.
+
+
+(window) to mark the center of a circle. Press a second time to draw a circle from the marked center to the selected point.
+
+
+(mode) to undo last circle (no redo)
+
+
+(vars) to clear all circles (no redo)
+
+
+(+) and (-) to increment movement jump similarly to MAZEGEN. Your movement jump value is displayed in the top right.
+
+
+(sto>) to display all x values of the points in the order they were added
+
+
+(1)  to display all x values of the points in the order they were added
+
+
+
+
+SKETCH:
+Basically an etch-a-sketch. If you dont know what that is you have lived under a rock. It draws a line in the path of the selected point
+
+
+(Arrow keys) to move in their respective directions
+
+
+(clear) to erase all lines
+
+
+
+
+TICTACTO:
+Simple tic tac toe. One player is red, the other is blue. This is a two player game only.
+
+
+(number keys) press to take the square in the corresponding position of the key. [Ex: 7 goes to top left]
+
+
+(clear) to restart the game
+
+
+
+
+PONG:
+A simple game in which two people control a paddle on each side of the screen. A ball bounces between them, gaining a small amount of speed each time. If the ball hits the far edge of the screen instead of the other player's paddle you get a point. First to a user designated number of points wins.
+
+
+(log) player 1 [left] up movement
+
+
+(sto>) player 1 [left] down movement
+
+
+(-) player 2 [right] up movement
+
+
+(<>) player 2 [right] down movement
