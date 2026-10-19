@@ -229,3 +229,15 @@ A simple game in which two people control a paddle on each side of the screen. A
 
 
 (<>) player 2 [right] down movement
+
+
+
+
+WORDLE:
+A standard wordle game, if you dont know about wordle you live under a rock. If someone knows a way to limit guesses to english words without a mile long word bank let me know, for now any 5 letter sequence is valid.
+
+
+Standard keyboard keys to type
+
+
+(enter) to submit a guess.
