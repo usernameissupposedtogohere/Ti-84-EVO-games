@@ -241,3 +241,20 @@ Standard keyboard keys to type
 
 
 (enter) to submit a guess.
+
+
+
+
+PONGAI:
+Identical to PONG except that the player on the right is now a simple AI. Difficulty being higher makes it maintain a position closer to being centered on the ball. 
+
+
+See PONG for player 1 (left player) controls
+
+
+
+
+SNAKE:
+Classic snake, same rules. Get the apple, avoid hitting yourself or the walls. Difficulty is the number of tiles the snake moves each second. The game can run well into unplayable speeds while still being extremely smooth.
+
+(Arrow keys) to change direction
