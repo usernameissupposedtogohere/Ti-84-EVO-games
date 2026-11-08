@@ -22,9 +22,11 @@ print("Press any key to start")
 FLBLKBST=[]
 wait_key()
 name="BEST"
-best=recall_list(name)
-FLBLKBST.append(best[0])
-
+try:
+  best=recall_list(name)
+  FLBLKBST.append(best[0])
+except:
+  FLBLKBST.append(0)
 over=False
 
 e1h=35
