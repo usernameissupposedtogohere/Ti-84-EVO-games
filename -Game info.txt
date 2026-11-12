@@ -343,4 +343,22 @@ Shoot approaching balls before they touch you.
 (left and right arrows) turn in respective directions
 
 
-(enter) to shoot lazer
+(enter) shoot lazer
+
+
+
+
+TETRIS:
+Standard tetris. (There are some bugs that i cannot find the cause of. If you identify reproduction please tell me)
+
+
+(left and right arrows) move block horizontally
+
+
+(down arrow) rotate block clockwise
+
+
+(clear) pause game
+
+
+(Y=) open keybind list
